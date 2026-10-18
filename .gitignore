@@ -1,0 +1,42 @@
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Cache do pytest
+.pytest_cache/
+.cache/
+
+# Cobertura de código
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Distribuição / build
+dist/
+build/
+*.egg-info/
+*.egg
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Variáveis de ambiente
+.env
+.env.*
