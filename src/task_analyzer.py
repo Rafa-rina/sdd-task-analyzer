@@ -62,8 +62,10 @@ class TaskValidationError(Exception):
 # ---------------------------------------------------------------------------
 # Tipos auxiliares
 # ---------------------------------------------------------------------------
-type Tarefa = dict[str, Any]
-type MetricasPrioridade = dict[str, dict[str, float | int]]
+Tarefa = dict[str, Any]
+MetricasPrioridade = dict[str, dict[str, float | int]]
+ResultadoAnalise = dict[str, Any]
+
 type ResultadoAnalise = dict[str, Any]
 
 
