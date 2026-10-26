@@ -66,7 +66,7 @@ Tarefa = dict[str, Any]
 MetricasPrioridade = dict[str, dict[str, float | int]]
 ResultadoAnalise = dict[str, Any]
 
-type ResultadoAnalise = dict[str, Any]
+ResultadoAnalise = dict[str, Any]
 
 
 # ---------------------------------------------------------------------------
