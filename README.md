@@ -81,6 +81,29 @@ Resultado esperado: **100% passed** ✅
 
 ---
 
+## 📦 Docker
+
+```bash
+# Build image
+docker build -t taskanalyzer .
+# Run tests inside container
+docker compose run taskanalyzer
+```
+
+## 🐳 Docker Compose
+
+```bash
+docker compose up --build
+```
+
+## 🤖 GitHub Actions CI
+
+The workflow `.github/workflows/ci.yml` runs on pushes and pull requests to `main` and `develop` using Python 3.11 and executes the test suite.
+
+## 📄 Relatório de Governança de IA
+
+Consulte `docs/relatorio_governanca_ia.pdf` para detalhes sobre as regras de contexto, validação humana e rastreabilidade.
+
 ## 🧪 Exemplo de Uso
 
 ```python
