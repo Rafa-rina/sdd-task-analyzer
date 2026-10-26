@@ -1,0 +1,1 @@
+# Exclude unnecessary files and directories\n__pycache__/\n*.pyc\n*.pyo\n*.pyd\n*.env\n.env\n.venv/\nvenv/\n.git/\n.gitignore\n.git*/\nDockerfile\n*.md\n*.pdf\n
